@@ -1,0 +1,128 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.content {
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+
+
+}
+.box1 {
+
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: black;
+
+}
+.up {
+  
+  background-color: #34495E;
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+.upLeft {
+
+  background-color: #EC7063;
+  flex: 1 1 auto;
+
+}
+.upMiddle {
+  
+background-color: #EC7063;
+flex: 5 1 auto;
+}
+.upRight {
+
+background-color: #EC7063;
+flex: 1 1 auto;
+}
+.down {
+
+background-color: #E67E22;
+}
+.downMiddle{
+
+background-color: #F7DC6F;
+
+}
+.box2 {
+background-color: black;
+display: flex;
+
+}
+.left {
+background-color: #705A78;
+flex: 2 1 auto;
+display: flex;
+flex-flow: wrap;
+
+}
+.left1 {
+background-color:  #2874A6;
+flex: 1 1 40%;
+}
+.left2 {
+background-color:  #2874A6;
+flex: 1 1 40%;
+
+}
+.left3 {
+
+background-color:  #2874A6;
+flex: 1 1 40%;
+}
+.left4 {
+
+background-color:  #2874A6;
+flex: 1 1 40%;
+}
+.left5 {
+background-color:  #85C1E9;
+flex: 1 1 100%;
+}
+
+.right {
+
+background-color: #E75141;
+flex: 1 1 auto;
+
+}
+.right1 {
+background-color:  #F9E79F;
+
+}
+.right2 {
+background-color:  #F9E79F;
+
+}
+.box3 {
+background-color: black;
+
+}
+.article {
+background-color: #F4D03F;
+}
+@media all and (max-width: 800px){
+  .box2 {
+      flex-direction: column;
+      background-color: #F4D03F;
+  }
+
+}
+@media all and (max-width: 600px) {
+
+
+  .up { 
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  .left {
+    flex-direction: column;
+  }
+
+}
